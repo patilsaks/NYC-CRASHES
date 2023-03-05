@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snow
+    database: sakshi
+    schema: public
+    tables:
+      - name: nyc_mv_collision_persons
+      - name: nyc_mv_collision_crashes
+      - name: nyc_mv_collision_vehicles
